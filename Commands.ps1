@@ -1,3 +1,5 @@
+$PSVersionTable
+
 #// Search for Commands 
 #View all VERB commands related to Add
 Get-Command -Verb <Add>
@@ -19,3 +21,8 @@ Format-Table -?
 help Format-Table
 man Format-Table
 #More detailed information
+
+ConciseView     #User selectable view (default for PS V7)
+Get-Error   #Cmdlet for detailed view of the error that was raised in the console
+
+
