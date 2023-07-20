@@ -1,0 +1,30 @@
+Comparision Operators
+EQUALITY:-
+eq - equals
+ne - not equal
+lt - less than
+gt - greater than
+ge - greater than or equal to
+le - less than or equal to 
+like - use like in wildcard Comparisions
+
+To make a comparison operator case-sensitive, add a c after the -
+-ceq is the case-sensitive version of -eq
+
+MATCHING:-
+-like, -ilike, -clike - string matches wildcard pattern
+-notlike, -inotlike, -cnotlike - string does not match wildcard pattern
+-match, -imatch, -cmatch - string matches regex pattern
+-notmatch, -inotmatch, -cnotmatch - string does not match regex pattern
+
+Replacement:-
+-replace
+
+Containment:-
+-in - value is in a collection
+-notin - value is not in a collection
+
+TYPE:-
+-is - both objects are the same type
+-isnot - the objects are not the same type
+
